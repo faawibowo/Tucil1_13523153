@@ -15,6 +15,7 @@ Program **Puzzle Solver** ini merupakan implementasi **brute force** untuk menyu
 ## ⚙️ **Cara Kompilasi dan Menjalankan Program**
 ### **1️⃣ Kompilasi Program**
 Buka terminal atau command prompt, lalu jalankan perintah berikut untuk mengompilasi semua file Java:
+
 javac -d bin src/*.java src/module/*.java
 
 ### **2️⃣ Menjalankan Program**
