@@ -1,18 +1,22 @@
-## Getting Started
+# Puzzle Solver - Brute Force 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 📌 Deskripsi Program
+Program **Puzzle Solver** ini merupakan implementasi **brute force** untuk menyusun blok puzzle ke dalam sebuah papan permainan berukuran **N x M**. Program akan mencoba semua kemungkinan kombinasi penempatan blok hingga menemukan solusi yang memenuhi seluruh papan tanpa ada ruang kosong.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 👨‍💻 **Pembuat**
+**Nama**: Muhammad Farrel Wibowo  
+**NIM**: 13523153  
+**Jurusan**: Teknik Informatika - Institut Teknologi Bandung (ITB)  
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## ⚙️ **Cara Kompilasi dan Menjalankan Program**
+### **1️⃣ Kompilasi Program**
+Buka terminal atau command prompt, lalu jalankan perintah berikut untuk mengompilasi semua file Java:
+javac -d bin src/*.java src/module/*.java
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### **2️⃣ Menjalankan Program**
+1. java -cp bin App
+2. ketik nama file tanpa .txt untuk input
